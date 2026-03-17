@@ -9,8 +9,8 @@ pipeline{
     }
     stage('Run script'){
       steps{
-        sh'chmod +X script.sh'
-        sh'./script.sh'
+        sh 'chmod +X script.sh'
+        sh './script.sh'
       }
     }
   }
