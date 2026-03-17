@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Clone'){
       steps{
-        git 'https://github.com/akshaym000/dev.git',
+        git: 'https://github.com/akshaym000/dev.git',
         branch: 'main'
       }
     }
